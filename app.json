@@ -15,6 +15,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.irfan.robocraze",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40c40095-8b26-4ea7-93de-6c330bad5f14"
+      }
     }
   }
 }
